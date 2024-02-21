@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+.book {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.page {
+    width: 210mm;
+    height: 297mm;
+    padding: 20mm;
+    margin: 10mm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    page-break-after: always;
+    break-inside: avoid;
+}
+
+.subpage {
+    padding: 1cm;
+    border: 5px #E5E5E5 solid;
+    height: 257mm;
+    outline: 5px #E5E5E5 solid;
+}
+
+/* Updates */
+
+.subpage {
+    border-color: #E5E5E5;
+    outline-color: #E5E5E5;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0080FF;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.generate-pdf {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}

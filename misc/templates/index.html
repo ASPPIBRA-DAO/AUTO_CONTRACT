@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contract Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>RELAT&Oacute;RIO T&Eacute;CNICO</h1>
+
+    <section id="document-info">
+        <h2>Document Information</h2>
+        <p><strong>Author:</strong> {{ document.author }}</p>
+        <p><strong>Creation Date:</strong> {{ document.creation_date }}</p>
+        <p><strong>Keywords:</strong> {{ document.keywords | join(', ') }}</p>
+        <p><strong>Language:</strong> {{ document.language }}</p>
+        <p><strong>Format:</strong> {{ document.format }}</p>
+        <p><strong>Description:</strong> {{ document.description }}</p>
+    </section>
+
+    <section id="owners">
+        <h2>Owners</h2>
+        <h3>Husband</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ owners.husband.name }}</li>
+            <li><strong>RG:</strong> {{ owners.husband.rg }}</li>
+            <li><strong>CPF:</strong> {{ owners.husband.CPF }}</li>
+            <li><strong>Birthdate:</strong> {{ owners.husband.birthdate }}</li>
+            <li><strong>Nationality:</strong> {{ owners.husband.nationality }}</li>
+            <li><strong>Marital Status:</strong> {{ owners.husband.marital_status }}</li>
+        </ul>
+
+        <h3>Wife</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ owners.wife.name }}</li>
+            <li><strong>RG:</strong> {{ owners.wife.rg }}</li>
+            <li><strong>CPF:</strong> {{ owners.wife.CPF }}</li>
+            <li><strong>Birthdate:</strong> {{ owners.wife.birthdate }}</li>
+            <li><strong>Nationality:</strong> {{ owners.wife.nationality }}</li>
+            <li><strong>Marital Status:</strong> {{ owners.wife.marital_status }}</li>
+        </ul>
+
+        <h3>Heir Children</h3>
+        <ul>
+            {% for child in owners.heir_children %}
+                <li>
+                    <strong>Name:</strong> {{ child.name }},
+                    <strong>Birthdate:</strong> {{ child.birthdate }}
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="area-description">
+        <h2>Area Description</h2>
+        <h3>Address</h3>
+        <ul>
+            <li><strong>Property Type:</strong> {{ area_description.address.property_type }}</li>
+            <li><strong>Street:</strong> {{ area_description.address.street }}</li>
+            <li><strong>Block:</strong> {{ area_description.address.block }}</li>
+            <li><strong>Lot:</strong> {{ area_description.address.lot }}</li>
+            <li><strong>Neighborhood:</strong> {{ area_description.address.neighborhood }}</li>
+            <li><strong>Municipality:</strong> {{ area_description.address.municipality }}</li>
+            <li><strong>Zip code:</strong> {{ area_description.address.zip_code }}</li>
+            <li><strong>State:</strong> {{ area_description.address.state }}</li>
+            <li><strong>Country:</strong> {{ area_description.address.country }}</li>
+        </ul>
+
+        <h3>Registration Number</h3>
+        <ul>
+            <li><strong>City Hall:</strong> {{ area_description.registration_number.city_hall }}</li>
+            <li><strong>Notary Office:</strong> {{ area_description.registration_number.Notary_office }}</li>
+        </ul>
+
+        <h3>Area</h3>
+        <ul>
+            <li><strong>Total Size:</strong> {{ area_description.area.total_size }}</li>
+            <li><strong>Right Side Confrontation:</strong> {{ area_description.area.right_side_confrontation }}</li>
+            <li><strong>Left Side Confrontation:</strong> {{ area_description.area.left_side_confrontation }}</li>
+            <li><strong>Front Confrontation:</strong> {{ area_description.area.front_confrontation }}</li>
+            <li><strong>Back Confrontation:</strong> {{ area_description.area.back_confrontation }}</li>
+            <li><strong>Perimeter:</strong> {{ area_description.area.perimeter }}</li>
+        </ul>
+
+        <h3>Geographic Location</h3>
+        <ul>
+            <li><strong>Latitude:</strong> {{ area_description.geographic_location.latitude }}</li>
+            <li><strong>Longitude:</strong> {{ area_description.geographic_location.longitude }}</li>
+            <li><strong>Geodetic System:</strong> {{ area_description.geographic_location.geodetic_system }}</li>
+        </ul>
+
+        <h3>Sales Value</h3>
+        <ul>
+            <li><strong>List Price:</strong> {{ area_description.sales_value.list_price }}</li>
+            <li><strong>Appraised Value:</strong> {{ area_description.sales_value.appraised_value }}</li>
+            <li><strong>Negotiated Sales Price:</strong> {{ area_description.sales_value.negotiated_sales_price }}</li>
+            <li><strong>Date of Sale:</strong> {{ area_description.sales_value.date_of_sale }}</li>
+            <li><strong>Buyer Information:</strong> {{ area_description.sales_value.buyer_information }}</li>
+            <li><strong>Payment Method:</strong> {{ area_description.sales_value.payment_method }}</li>
+            <li><strong>Terms of Sale:</strong> {{ area_description.sales_value.terms_of_sale }}</li>
+        </ul>
+    </section>
+
+    <section id="professionals">
+        <h2>Professionals</h2>
+        <h3>Surveyor</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ professionals.surveyor.name }}</li>
+            <li><strong>Crea:</strong> {{ professionals.surveyor.crea }}</li>
+            <li><strong>RG:</strong> {{ professionals.surveyor.rg }}</li>
+            <li><strong>CPF:</strong> {{ professionals.surveyor.CPF }}</li>
+            <li><strong>CNPJ:</strong> {{ professionals.surveyor.CNPJ }}</li>
+        </ul>
+
+        <h3>Civil Engineer</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ professionals.civil_engineer.name }}</li>
+            <li><strong>Crea:</strong> {{ professionals.civil_engineer.crea }}</li>
+            <li><strong>RG:</strong> {{ professionals.civil_engineer.rg }}</li>
+            <li><strong>CPF:</strong> {{ professionals.civil_engineer.CPF }}</li>
+            <li><strong>CNPJ:</strong> {{ professionals.civil_engineer.CNPJ }}</li>
+        </ul>
+    </section>
+
+    <section id="topography-plans">
+        <h2>Topography Plans</h2>
+        <p><strong>Value:</strong> {{ topography_plans.value }}</p>
+
+        <h3>Plans</h3>
+        <ul>
+            <li><strong>Situation Plan:</strong> <a href="{{ topography_plans.plans['Situation Plan'] }}">Link</a></li>
+            <li><strong>Cadastral Planimetric Plan:</strong> <a href="{{ topography_plans.plans['Cadastral planimetric plan'] }}">Link</a></li>
+            <li><strong>Topographic Plan:</strong> <a href="{{ topography_plans.plans['topographic plan'] }}">Link</a></li>
+            <li><strong>Zoning Plan:</strong> <a href="{{ topography_plans.plans['Zoning plan'] }}">Link</a></li>
+            <li><strong>District Plan:</strong> <a href="{{ topography_plans.plans['district plan'] }}">Link</a></li>
+        </ul>
+    </section>
+
+    <section id="house-plans">
+        <h2>House Plans</h2>
+        <p><strong>Value:</strong> {{ house_plans.value }}</p>
+
+        <h3>Plans</h3>
+        <ul>
+            <li><strong>House Plan:</strong> <a href="{{ house_plans.plans.house_plan }}">Link</a></li>
+            <li><strong>Engineering Plans:</strong>
+                <ul>
+                    {% for engineering_plan in house_plans.plans.engineering_plan %}
+                        <li><a href="{{ engineering_plan }}">Link to Engineering Plan</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+     <section id="photo-report">
+        <h2>Photo Report</h2>
+        <p><strong>Description:</strong> {{ photo_report.description }}</p>
+
+        <h3>Images</h3>
+        <ul>
+            <li><strong>Front View:</strong> <a href="{{ photo_report.images['Front View'] }}">Link</a></li>
+            <li><strong>Side View:</strong> <a href="{{ photo_report.images['side view'] }}">Link</a></li>
+            <li><strong>Backyard:</strong> <a href="{{ photo_report.images.Backyard }}">Link</a></li>
+            <li><strong>Aerial Photography:</strong>
+                <ul>
+                    {% for aerial_photo in photo_report.images.aerial_photography %}
+                        <li><a href="{{ aerial_photo }}">Link to Aerial Photo</a></li>
+                    {% endfor %}
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="construction-licensing">
+        <h2>Construction Licensing</h2>
+        <p><strong>Value:</strong> {{ construction_licensing.value }}</p>
+        <p><strong>Link:</strong> <a href="{{ construction_licensing.link }}">Link</a></p>
+        <p><strong>Electronic Seal:</strong> {{ construction_licensing.electronic_seal }}</p>
+    </section>
+
+    <section id="city-hall">
+        <h2>City Hall</h2>
+        <h3>Address</h3>
+        <ul>
+            <li><strong>Street:</strong> {{ city_hall.address.street }}</li>
+            <li><strong>Block:</strong> {{ city_hall.address.block }}</li>
+            <li><strong>Lot:</strong> {{ city_hall.address.lot }}</li>
+            <li><strong>Neighborhood:</strong> {{ city_hall.address.neighborhood }}</li>
+            <li><strong>Municipality:</strong> {{ city_hall.address.municipality }}</li>
+            <li><strong>State:</strong> {{ city_hall.address.state }}</li>
+            <li><strong>Zip Code:</strong> {{ city_hall.address.zip_code }}</li>
+        </ul>
+        <p><strong>CNPJ:</strong> {{ city_hall.CNPJ }}</p>
+    </section>
+
+    <section id="registry-office">
+        <h2>Registry Office</h2>
+        <p><strong>Name:</strong> {{ registry_office.name }}</p>
+
+        <h3>Notary Officer</h3>
+        <ul>
+            <li><strong>Name:</strong> {{ registry_office.notary_officer.name }}</li>
+            <li><strong>Substitute Name:</strong> {{ registry_office.notary_officer.substitute_name }}</li>
+        </ul>
+
+        <h3>Address</h3>
+        <ul>
+            <li><strong>Street:</strong> {{ registry_office.address.street }}</li>
+            <li><strong>Block:</strong> {{ registry_office.address.block }}</li>
+            <li><strong>Lot:</strong> {{ registry_office.address.lot }}</li>
+            <li><strong>Neighborhood:</strong> {{ registry_office.address.neighborhood }}</li>
+            <li><strong>Municipality:</strong> {{ registry_office.address.municipality }}</li>
+            <li><strong>State:</strong> {{ registry_office.address.state }}</li>
+            <li><strong>Zip Code:</strong> {{ registry_office.address.zip_code }}</li>
+        </ul>
+
+        <p><strong>CNPJ:</strong> {{ registry_office.CNPJ }}</p>
+    </section>
+
+    <section id="onus-reais">
+        <h2>Onus Reais</h2>
+        <p><strong>Value:</strong> {{ onus_reais.value }}</p>
+        <p><strong>Link:</strong> <a href="{{ onus_reais.link }}">Link</a></p>
+        <p><strong>Electronic Seal:</strong> {{ onus_reais.electronic_seal }}</p>
+    </section>
+
+    <section id="notarial-minutes">
+        <h2>Notarial Minutes</h2>
+        <p><strong>Value:</strong> {{ notarial_minutes.value }}</p>
+        <p><strong>Link:</strong> <a href="{{ notarial_minutes.link }}">Link</a></p>
+        <p><strong>Electronic Seal:</strong> {{ notarial_minutes.electronic_seal }}</p>
+    </section>
+
+    <section id="judicial-note">
+        <h2>Judicial Note</h2>
+        <p><strong>Value:</strong> {{ judicial_note.value }}</p>
+        <p><strong>Link:</strong> <a href="{{ judicial_note.link }}">Link</a></p>
+        <p><strong>Electronic Seal:</strong> {{ judicial_note.electronic_seal }}</p>
+    </section>
+</body>
+</html>
