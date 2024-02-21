@@ -1,398 +1,724 @@
 @font-face {
-  font-family: Fira Sans;
-  font-weight: 400;
-  src: url(firasans-regular.otf);
+	font-family: Fira Sans;
+	font-weight: 400;
+	src: url(firasans-regular.otf);
 }
+
 @font-face {
-  font-family: Fira Sans;
-  font-style: italic;
-  font-weight: 400;
-  src: url(firasans-italic.otf);
+	font-family: Fira Sans;
+	font-style: italic;
+	font-weight: 400;
+	src: url(firasans-italic.otf);
 }
+
 @font-face {
-  font-family: Fira Sans;
-  font-weight: 300;
-  src: url(firasans-light.otf);
+	font-family: Fira Sans;
+	font-weight: 300;
+	src: url(firasans-light.otf);
 }
+
 @font-face {
-  font-family: Fira Sans;
-  font-style: italic;
-  font-weight: 300;
-  src: url(firasans-lightitalic.otf);
+	font-family: Fira Sans;
+	font-style: italic;
+	font-weight: 300;
+	src: url(firasans-lightitalic.otf);
 }
+
 @font-face {
-  font-family: Fira Sans;
-  font-weight: 700;
-  src: url(firasans-bold.otf);
+	font-family: Fira Sans;
+	font-weight: 700;
+	src: url(firasans-bold.otf);
+}
+
+.page {
+	height: 297mm;
+}
+
+.card {
+    width: calc(100%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffcc80;
+    page-break-inside: avoid; /* Avoid breaking cards across pages */
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.spacer {
+        height: 10px; /* Adjust the height for the desired space */
+}
+
+.card:not([style*="page-break-before"]) {
+        page-break-before: avoid;
+        margin-top: 10px; /* Add margin for the first card on each page */
+    }
+
+.header-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 0px;
+	/* Optional margin top for spacing */
+}
+
+.header-table td {
+	border: 2px solid #9899a6;
+	/* Thicker borders with a gray color */
+	padding: 5px;
+	/* Adjusted padding */
+	text-align: left;
+	/* Left-aligned text */
+}
+
+.header-table td p {
+	font-weight: bold;
+	/* Bold text */
+	color: #002366;
+	/* Text color with a blue color */
+	margin: 0;
+	/* Remove default paragraph margin */
 }
 
 @page {
-  @top-left {
-    background: #fbc847;
-    content: counter(page);
-    height: 1cm;
-    text-align: center;
-    width: 1cm;
-  }
-  @top-center {
-    background: #fbc847;
-    content: '';
-    display: block;
-    height: .05cm;
-    opacity: .5;
-    width: 100%;
-  }
-  @top-right {
-    content: string(heading);
-    font-size: 9pt;
-    height: 1cm;
-    vertical-align: middle;
-    width: 100%;
-  }
+
+	@top-left {
+		background: #fbc847;
+		content: counter(page);
+		height: 1cm;
+		text-align: center;
+		width: 1cm;
+	}
+
+	@top-center {
+		background: #fbc847;
+		content: '';
+		display: block;
+		height: .05cm;
+		opacity: .5;
+		width: 100%;
+	}
+
+	@top-right {
+		content: string(heading);
+		font-size: 9pt;
+		height: 1cm;
+		vertical-align: middle;
+		width: 100%;
+	}
 }
+
 @page :blank {
-  @top-left { background: none; content: '' }
-  @top-center { content: none }
-  @top-right { content: none }
+	@top-left {
+		background: none;
+		content: ''
+	}
+
+	@top-center {
+		content: none
+	}
+
+	@top-right {
+		content: none
+	}
 }
+
 @page no-chapter {
-  @top-left { background: none; content: none }
-  @top-center { content: none }
-  @top-right { content: none }
+	@top-left {
+		background: none;
+		content: none
+	}
+
+	@top-center {
+		content: none
+	}
+
+	@top-right {
+		content: none
+	}
 }
+
 @page :first {
-  background: url(report-cover.jpg) no-repeat center;
-  background-size: cover;
-  margin: 0;
+	background: url(cover.png) no-repeat center;
+	background-size: cover;
+	margin: 0;
 }
+
 @page chapter {
-  background: #fbc847;
-  margin: 0;
-  @top-left { content: none }
-  @top-center { content: none }
-  @top-right { content: none }
+	background: #fbc847;
+	margin: 0;
+	text-align: center;
+
+	 !important @top-left {
+		content: none
+	}
+
+	@top-center {
+		content: none
+	}
+
+	@top-right {
+		content: none
+	}
+}
+
+@page last {
+	background: url(cover.png) no-repeat center;
+	background-size: cover;
+	margin: 0;
+	text-align: center;
+
+	 !important @top-left {
+		content: none
+	}
+
+	@top-center {
+		content: none
+	}
+
+	@top-right {
+		content: none
+	}
+}
+
+#chapter .line {
+	text-align: center;
+	/* Center the content horizontally */
+}
+
+#chapter h2 {
+	margin: 0;
+	/* Remove default margin for better centering */
 }
 
 html {
-  color: #393939;
-  font-family: Fira Sans;
-  font-size: 11pt;
-  font-weight: 300;
-  line-height: 1.5;
+	color: #393939;
+	font-family: Fira Sans;
+	font-size: 11pt;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 h1 {
-  color: #fbc847;
-  font-size: 38pt;
-  margin: 5cm 2cm 0 2cm;
-  page: no-chapter;
-  width: 100%;
+	color: #fbc847;
+	font-size: 38pt;
+	margin: 5cm 2cm 0 2cm;
+	page: no-chapter;
+	width: 100%;
 }
-h2, h3, h4 {
-  color: black;
-  font-weight: 400;
-}
-h2 {
-  break-before: always;
-  font-size: 28pt;
-  string-set: heading content();
-}
-h3 {
-  font-weight: 300;
-  font-size: 15pt;
-}
+
+h2,
+h3,
 h4 {
-  font-size: 13pt;
+	color: black;
+	font-weight: 400;
+}
+
+h2 {
+	break-before: always;
+	font-size: 16pt;
+	string-set: heading content();
+	background: #fbc847;
+	margin: 1cm -3cm 1cm;
+	padding: 1cm 1cm 1cm 3cm;
+	width: 21cm;
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 15pt;
+}
+
+h4 {
+	font-size: 13pt;
 }
 
 #cover {
-  align-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
-  height: 297mm;
+	align-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	height: 297mm;
 }
+
+
+.last-page {
+    break-before: always; /* Ensure the last page starts on a new page */
+    margin: 0; /* Remove any default margins for the last page */
+}
+
+.last-page img {
+    width: 100%;
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0; /* Remove any default margins for the image */
+}
+
 #cover address {
-  background: #fbc847;
-  flex: 1 50%;
-  margin: 0 -2cm;
-  padding: 1cm 0;
-  white-space: pre-wrap;
+	background: #fbc847;
+	flex: 1 50%;
+	margin: 0 -2cm;
+	padding: 1cm 0;
+	white-space: pre-wrap;
 }
+
 #cover address:first-of-type {
-  padding-left: 3cm;
+	padding-left: 3cm;
 }
+
 #contents {
-  break-before: right;
-  break-after: left;
-  page: no-chapter;
+	break-before: right;
+	break-after: left;
+	page: no-chapter;
 }
+
 #contents h2 {
-  font-size: 20pt;
-  font-weight: 400;
-  margin-bottom: 3cm;
+	font-size: 20pt;
+	font-weight: 400;
+	margin-bottom: 3cm;
 }
+
 #contents h3 {
-  font-weight: 500;
-  margin: 3em 0 1em;
+	font-weight: 500;
+	margin: 3em 0 1em;
 }
+
 #contents h3::before {
-  background: #fbc847;
-  content: '';
-  display: block;
-  height: .08cm;
-  margin-bottom: .25cm;
-  width: 2cm;
+	background: #fbc847;
+	content: '';
+	display: block;
+	height: .08cm;
+	margin-bottom: .25cm;
+	width: 2cm;
 }
+
 #contents ul {
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
+
 #contents ul li {
-  border-top: .25pt solid #c1c1c1;
-  margin: .25cm 0;
-  padding-top: .25cm;
+	border-top: .25pt solid #c1c1c1;
+	margin: .25cm 0;
+	padding-top: .25cm;
 }
+
 #contents ul li::before {
-  color: #fbc847;
-  content: '• ';
-  font-size: 40pt;
-  line-height: 16pt;
-  vertical-align: bottom;
+	color: #fbc847;
+	content: '• ';
+	font-size: 40pt;
+	line-height: 16pt;
+	vertical-align: bottom;
 }
+
 #contents ul li a {
-  color: inherit;
-  text-decoration-line: inherit;
+	color: inherit;
+	text-decoration-line: inherit;
 }
+
 #contents ul li a::before {
-  content: target-text(attr(href));
+	content: target-text(attr(href));
 }
+
 #contents ul li a::after {
-  color: #fbc847;
-  content: target-counter(attr(href), page);
-  float: right;
+	color: #fbc847;
+	content: target-counter(attr(href), page);
+	float: right;
+}
+
+/* Add this style for image within the ul and li elements */
+ul li img {
+	max-width: 100%;
+	/* Make sure the image doesn't exceed its container width */
+	height: auto;
+	/* Maintain the image's aspect ratio */
+	display: block;
+	/* Ensure the image doesn't create extra space below */
+	margin: 0 auto;
+	/* Center the image horizontally */
+}
+
+.image {
+    padding-top: 30px;
+}
+
+div img {
+	max-width: 100%;
+	/* Make sure the image doesn't exceed its container width */
+	height: auto;
+	/* Maintain the image's aspect ratio */
+	display: block;
+	/* Ensure the image doesn't create extra space below */
+	margin: 0 auto;
+	/* Center the image horizontally */
+	margin-bottom: 0px; /* Add your preferred margin value */
 }
 
 #columns section {
-  columns: 2;
-  column-gap: 1cm;
-  padding-top: 1cm;
+	columns: 2;
+	column-gap: 1cm;
+	padding-top: 1cm;
 }
+
 #columns section p {
-  text-align: justify;
+	text-align: justify;
 }
+
 #columns section p:first-of-type {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 #skills h3 {
-  background: #fbc847;
-  margin: 0 -3cm 1cm;
-  padding: 1cm 1cm 1cm 3cm;
-  width: 21cm;
+	background: #fbc847;
+	margin: 0 -3cm 1cm;
+	padding: 1cm 1cm 1cm 3cm;
+	width: 21cm;
 }
+
 #skills section {
-  padding: .5cm 0;
+	padding: .5cm 0;
 }
+
 #skills section#table-content::before {
-  background: url(table-content.svg) no-repeat center #fbc847;
-  background-size: 50%;
-  content: '';
-  display: inline-block;
-  float: left;
-  height: 2cm;
-  margin-right: .5cm;
-  vertical-align: middle;
-  width: 2cm;
+	background: url(table-content.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
 }
+
 #skills section#heading::before {
-  background: url(heading.svg) no-repeat center #fbc847;
-  background-size: 50%;
-  content: '';
-  display: inline-block;
-  float: left;
-  height: 2cm;
-  margin-right: .5cm;
-  vertical-align: middle;
-  width: 2cm;
+	background: url(heading.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
 }
+
 #skills section#multi-columns::before {
-  background: url(multi-columns.svg) no-repeat center #fbc847;
-  background-size: 50%;
-  content: '';
-  display: inline-block;
-  float: left;
-  height: 2cm;
-  margin-right: .5cm;
-  vertical-align: middle;
-  width: 2cm;
+	background: url(multi-columns.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
 }
+
 #skills section#internal-links::before {
-  background: url(internal-links.svg) no-repeat center #fbc847;
-  background-size: 50%;
-  content: '';
-  display: inline-block;
-  float: left;
-  height: 2cm;
-  margin-right: .5cm;
-  vertical-align: middle;
-  width: 2cm;
+	background: url(internal-links.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
 }
+
 #skills section#style::before {
-  background: url(style.svg) no-repeat center #fbc847;
-  background-size: 50%;
-  content: '';
-  display: inline-block;
-  float: left;
-  height: 2cm;
-  margin-right: .5cm;
-  vertical-align: middle;
-  width: 2cm;
+	background: url(style.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
 }
+
 #skills section h4 {
-  margin: 0;
+	margin: 0;
 }
+
 #skills section p {
-  margin-top: 0;
+	margin-top: 0;
+}
+
+#skills {
+
+	height: 297mm;
+}
+
+#skills2 {
+	height: 297mm;
+}
+
+#skills2 h3 {
+	background: #fbc847;
+	margin: 0 -3cm 1cm;
+	padding: 1cm 1cm 1cm 3cm;
+	width: 21cm;
+}
+
+#skills2 section {
+	padding: .5cm 0;
+}
+
+#skills2 section#table-content::before {
+	background: url(table-content.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
+}
+
+#skills2 section#heading::before {
+	background: url(heading.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
+}
+
+#skills2 section#multi-columns::before {
+	background: url(multi-columns.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
+}
+
+#skills2 section#internal-links::before {
+	background: url(internal-links.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
+}
+
+#skills2 section#style::before {
+	background: url(style.svg) no-repeat center #fbc847;
+	background-size: 50%;
+	content: '';
+	display: inline-block;
+	float: left;
+	height: 2cm;
+	margin-right: .5cm;
+	vertical-align: middle;
+	width: 2cm;
+}
+
+#skills2 section h4 {
+	margin: 0;
+}
+
+#skills2 section p {
+	margin-top: 0;
 }
 
 #offers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-#offers h2, #offers h3 {
-  width: 100%;
+
+#offers h2,
+#offers h3 {
+	width: 100%;
 }
+
 #offers section {
-  width: 30%;
+	width: 30%;
 }
+
 #offers section h4 {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
+
 #offers section ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
 }
+
 #offers section ul li:not(:last-of-type) {
-  margin: .5cm 0;
+	margin: .5cm 0;
 }
+
 #offers section p {
-  background: #fbc847;
-  display: block;
-  font-size: 15pt;
-  font-weight: 700;
-  margin-bottom: 0;
-  padding: .25cm 0;
-  text-align: center;
+	background: #fbc847;
+	display: block;
+	font-size: 15pt;
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: .25cm 0;
+	text-align: center;
 }
 
 #chapter {
-  align-items: center;
-  display: flex;
-  height: 297mm;
-  justify-content: center;
-  page: chapter;
+	align-items: center;
+	display: flex;
+	height: 297mm;
+	justify-content: center;
+	page: chapter;
+}
+
+#last {
+	align-items: center;
+	display: flex;
+	height: 297mm;
+	justify-content: center;
+	page: last;
 }
 
 #typography section {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1cm 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1cm 0;
 }
+
 #typography section h4 {
-  border-top: 1pt solid;
-  flex: 1 25%;
-  margin: 0;
+	border-top: 1pt solid;
+	flex: 1 25%;
+	margin: 0;
 }
-#typography section h4 + * {
-  flex: 1 75%;
-  margin: 0;
-  padding-left: .5cm;
+
+#typography section h4+* {
+	flex: 1 75%;
+	margin: 0;
+	padding-left: .5cm;
 }
+
 #typography section p {
-  text-align: justify;
+	text-align: justify;
 }
+
 #typography section ul {
-  line-height: 2;
-  list-style: none;
+	line-height: 2;
+	list-style: none;
 }
+
 #typography section#small-caps p {
-  font-variant: small-caps;
+	font-variant: small-caps;
 }
+
 #typography section#ligatures dl {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
+
 #typography section#ligatures dl dt {
-  font-weight: 400;
-  width: 30%;
+	font-weight: 400;
+	width: 30%;
 }
+
 #typography section#ligatures dl dd {
-  flex: 1 70%;
-  margin: 0;
-  padding: 0;
+	flex: 1 70%;
+	margin: 0;
+	padding: 0;
 }
+
 #typography section#ligatures .none {
-  font-variant-ligatures: none;
+	font-variant-ligatures: none;
 }
+
 #typography section#ligatures .common {
-  font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
 }
+
 #typography section#ligatures .discretionary {
-  font-variant-ligatures: discretionary-ligatures;
+	font-variant-ligatures: discretionary-ligatures;
 }
+
 #typography section#ligatures .contextual {
-  font-variant-ligatures: contextual;
+	font-variant-ligatures: contextual;
 }
+
 #typography section#numbers dl {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
+
 #typography section#numbers dl dt {
-  font-weight: 400;
-  width: 30%;
+	font-weight: 400;
+	width: 30%;
 }
+
 #typography section#numbers dl dd {
-  flex: 1 70%;
-  margin: 0;
-  padding: 0;
+	flex: 1 70%;
+	margin: 0;
+	padding: 0;
 }
+
 #typography section#numbers #fractions {
-  font-variant-numeric: diagonal-fractions;
+	font-variant-numeric: diagonal-fractions;
 }
+
 #typography section#numbers #ordinals {
-  font-variant-numeric: ordinal;
+	font-variant-numeric: ordinal;
 }
+
 #typography section#numbers #slashed {
-  font-variant-numeric: slashed-zero;
+	font-variant-numeric: slashed-zero;
 }
+
 #typography section#numbers #super {
-  font-variant-position: super;
+	font-variant-position: super;
 }
+
 #typography section#numbers #sub {
-  font-variant-position: sub;
+	font-variant-position: sub;
 }
+
 #typography section#figures dl {
-  columns: 4;
+	columns: 4;
 }
+
 #typography section#figures dl dt {
-  font-weight: 400;
+	font-weight: 400;
 }
+
 #typography section#figures dl dd {
-  display: flex;
-  margin: 0;
-  padding: 0;
+	display: flex;
+	margin: 0;
+	padding: 0;
 }
+
 #typography section#figures dl dd ul {
-  padding: 0 1em 0 0;
+	padding: 0 1em 0 0;
 }
+
 #typography section#figures #oldstyle {
-  font-variant-numeric: oldstyle-nums;
+	font-variant-numeric: oldstyle-nums;
 }
+
 #typography section#figures #tabular {
-  font-variant-numeric: tabular-nums;
+	font-variant-numeric: tabular-nums;
 }
+
 #typography section#figures #old-tabular {
-  font-variant-numeric: oldstyle-nums tabular-nums;
+	font-variant-numeric: oldstyle-nums tabular-nums;
 }

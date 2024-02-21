@@ -1,0 +1,188 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link href="report.css" rel="stylesheet">
+      <title>Report</title>
+      <meta name="description" content="Report">
+   </head>
+   <body>
+      <article id="cover">
+         <h1>RELAT&Oacute;RIO T&Eacute;CNICO</h1>
+         <address>
+            ASPPIBRA
+            Avenida S&atilde;o Jo&atilde;o, 501
+            29045-99, Rio de Janeiro, Brasil
+         </address>
+         <address>
+            aspibbra@hotmail.com
+            https://asppibra.com.br
+         </address>
+      </article>
+      <article id="chapter">
+         <h2 id="chapter-title_1"> MEMORIAL DESCRITIVO<br> MONJOLOS S&Atilde;O GON&Ccedil;ALO RJ<br> 2022</h2>
+      </article>
+      <article id="skills">
+         <br>
+         <h3>DEDICATORIA</h3>
+         <img src="./justica.png" alt="Justiça" style="max-height: 25%; max-width: 100%; width: auto; height: auto;">
+         <p>Dedico esse documento a ASPPIBRA ao trazer solu&#231;&#227;o ao caso de Regulariza&#231;&#227;o&#10;
+            Fundi&#225;ria Urbana do Munic&#237;pio de S&#227;o Gon&#231;alo Rj. ao primeiro Cart&#243;rio por ter&#10;
+            apoiado o registro do im&#243;vel localizado no bairro de alta periculosidade e ao SR:&#10;
+            Presidente MICHEL TEMER, que promulgou a LEI N&#186; 13.465, DE 11 DE JULHO DE 2017.&#10;
+            Disp&#245;e sobre a regulariza&#231;&#227;o fundi&#225;ria rural e urbana, sobre a liquida&#231;&#227;o de&#10;
+            cr&#233;ditos concedidos aos assentados da reforma agr&#225;ria e sobre a regulariza&#231;&#227;o&#10;
+            fundi&#225;ria no &#226;mbito da Amaz&#244;nia Legal; institui mecanismos para aprimorar a&#10;
+            efici&#234;ncia dos procedimentos de aliena&#231;&#227;o de im&#243;veis da Uni&#227;o; altera as Leis n&#10;
+            os 8.629, de 25 de fevereiro de 1993 , 13.001, de 20 de junho de 2014, 11.952, de 25 de&#10;
+            junho de 2009, 13.340, de 28 de setembro de 2016, 8.666, de 21 de junho de 1993,&#10;
+            6.015, de 31 de dezembro de 1973, 12.512, de 14 de outubro de 2011, 10.406, de 10 de&#10;
+            janeiro de 2002 (C&#243;digo Civil), 13.105, de 16 de mar&#231;o de 2015 (C&#243;digo de&#10;
+            Processo Civil), 11.977, de 7 de julho de 2009, 9.514, de 20 de novembro de 1997,&#10;
+            11.124, de 16 de junho de 2005, 6.766, de 19 de dezembro de 1979, 10.257, de 10 de&#10;
+            julho de 2001, 12.651, de 25 de maio de 2012, 13.240, de 30 de dezembro de 2015,&#10;
+            9.636, de 15 de maio de 1998, 8.036, de 11 de maio de 1990, 13.139, de 26 de junho&#10;
+            de 2015, 11.483, de 31 de maio de 2007, e a 12.712, de 30 de agosto de 2012, a&#10;
+            Medida Provis&#243;ria n&#186; 2.220, de 4 de setembro de 2001, e os Decretos-Leis n &#186; 2.398,&#10;
+            de 21 de dezembro de 1987, 1.876, de 15 de julho de 1981, 9.760, de 5 de setembro&#10;
+            de 1946, e 3.365, de 21 de junho de 1941; revoga dispositivos da Lei Complementar&#10;
+            n&#186; 76, de 6 de julho de 1993, e da Lei n&#186; 13.347, de 10 de outubro de 2016; e d&#225;&#10;
+            outras provid&#234;ncias.
+         </p>
+      </article>
+      <article id="skills2">
+         <br>
+         <h3>AGRADECIMENTOS</h3>
+         <p>
+            Quero prestar os devidos agradecimentos, primeiramente, a Deus e a todos que&#10;de alguma forma participaram para a devida conclus&#227;o deste feito.&#10;
+            A Associa&#231;&#227;o ASPPIBRA, que acompanhou todo o processo e desenvolvimento&#10;do documento dando o devido suporte,
+            a empresa de topografia que fez todo o&#10;levantamento topogr&#225;fico do local, A Engenheira que realizou
+            a planta e&#10;inscri&#231;&#227;o do im&#243;vel junto a prefeitura de S&#227;o Gon&#231;alo Rj
+         </p>
+      </article>
+      <article id="contents">
+         <h2>SUM&Aacute;RIO</h2>
+         <h3></h3>
+         <ul>
+            <li><a href="#doc-info-title"></a></li>
+            <li><a href="#owners-title"></a></li>
+            <li><a href="#area-description-title"></a></li>
+            <li><a href="#professionals-title"></a></li>
+            <li><a href="#plan-title"></a></li>
+            <li><a href="#construction-licensing-title"></a></li>
+            <li><a href="#licesing-title"></a></li>
+         </ul>
+      </article>
+      <article>
+         <h2 id="doc-info-title">Document Information</h2>
+         <section id="document-info">
+            <p><strong>Author:</strong> {{ document.author }}</p>
+            <p><strong>Creation Date:</strong> {{ document.creation_date }}</p>
+            <p><strong>Keywords:</strong> {{ document.keywords | join(', ') }}</p>
+            <p><strong>Language:</strong> {{ document.language }}</p>
+            <p><strong>Format:</strong> {{ document.format }}</p>
+            <p><strong>Description:</strong> {{ document.description }}</p>
+         </section>
+      </article>
+      <article>
+         <h2 id="owners-title">Owners</h2>
+         <section id="owners">
+            <h4>Owners</h4>
+            <h3>Husband</h3>
+            <ul>
+               <li><strong>Name:</strong> {{ owners.husband.name }}</li>
+               <li><strong>RG:</strong> {{ owners.husband.rg }}</li>
+               <li><strong>CPF:</strong> {{ owners.husband.CPF }}</li>
+               <li><strong>Birthdate:</strong> {{ owners.husband.birthdate }}</li>
+               <li><strong>Nationality:</strong> {{ owners.husband.nationality }}</li>
+               <li><strong>Marital Status:</strong> {{ owners.husband.marital_status }}</li>
+            </ul>
+            <h3>Wife</h3>
+            <ul>
+               <li><strong>Name:</strong> {{ owners.wife.name }}</li>
+               <li><strong>RG:</strong> {{ owners.wife.rg }}</li>
+               <li><strong>CPF:</strong> {{ owners.wife.CPF }}</li>
+               <li><strong>Birthdate:</strong> {{ owners.wife.birthdate }}</li>
+               <li><strong>Nationality:</strong> {{ owners.wife.nationality }}</li>
+               <li><strong>Marital Status:</strong> {{ owners.wife.marital_status }}</li>
+            </ul>
+            <h3>Heir Children</h3>
+            <ul>
+               {% for child in owners.heir_children %}
+               <li>
+                  <strong>Name:</strong> {{ child.name }},
+                  <strong>Birthdate:</strong> {{ child.birthdate }}
+               </li>
+               {% endfor %}
+            </ul>
+         </section>
+      </article>
+      <article>
+         <h2 id="area-description-title">Area Description</h2>
+         <section id="area-description">
+            <h3>Address</h3>
+            <ul>
+               <li><strong>Property Type:</strong> {{ area_description.address.property_type }}</li>
+               <li><strong>Street:</strong> {{ area_description.address.street }}</li>
+               <li><strong>Block:</strong> {{ area_description.address.block }}</li>
+               <li><strong>Lot:</strong> {{ area_description.address.lot }}</li>
+               <li><strong>Neighborhood:</strong> {{ area_description.address.neighborhood }}</li>
+               <li><strong>Municipality:</strong> {{ area_description.address.municipality }}</li>
+               <li><strong>Zip code:</strong> {{ area_description.address.zip_code }}</li>
+               <li><strong>State:</strong> {{ area_description.address.state }}</li>
+               <li><strong>Country:</strong> {{ area_description.address.country }}</li>
+            </ul>
+            <h3>Registration Number</h3>
+            <ul>
+               <li><strong>City Hall:</strong> {{ area_description.registration_number.city_hall }}</li>
+               <li><strong>Notary Office:</strong> {{ area_description.registration_number.Notary_office }}</li>
+            </ul>
+            <h3>Area</h3>
+            <ul>
+               <li><strong>Total Size:</strong> {{ area_description.area.total_size }}</li>
+               <li><strong>Right Side Confrontation:</strong> {{ area_description.area.right_side_confrontation }}</li>
+               <li><strong>Left Side Confrontation:</strong> {{ area_description.area.left_side_confrontation }}</li>
+               <li><strong>Front Confrontation:</strong> {{ area_description.area.front_confrontation }}</li>
+               <li><strong>Back Confrontation:</strong> {{ area_description.area.back_confrontation }}</li>
+               <li><strong>Perimeter:</strong> {{ area_description.area.perimeter }}</li>
+            </ul>
+            <h3>Geographic Location</h3>
+            <ul>
+               <li><strong>Latitude:</strong> {{ area_description.geographic_location.latitude }}</li>
+               <li><strong>Longitude:</strong> {{ area_description.geographic_location.longitude }}</li>
+               <li><strong>Geodetic System:</strong> {{ area_description.geographic_location.geodetic_system }}</li>
+            </ul>
+            <h3>Sales Value</h3>
+            <ul>
+               <li><strong>List Price:</strong> {{ area_description.sales_value.list_price }}</li>
+               <li><strong>Appraised Value:</strong> {{ area_description.sales_value.appraised_value }}</li>
+               <li><strong>Negotiated Sales Price:</strong> {{ area_description.sales_value.negotiated_sales_price }}</li>
+               <li><strong>Date of Sale:</strong> {{ area_description.sales_value.date_of_sale }}</li>
+               <li><strong>Buyer Information:</strong> {{ area_description.sales_value.buyer_information }}</li>
+               <li><strong>Payment Method:</strong> {{ area_description.sales_value.payment_method }}</li>
+               <li><strong>Terms of Sale:</strong> {{ area_description.sales_value.terms_of_sale }}</li>
+            </ul>
+         </section>
+      </article>
+      <article>
+         <h2 id="professionals-title">Professionals</h2>
+         <section id="professionals">
+            <h3>Surveyor</h3>
+            <ul>
+               <li><strong>Name:</strong> {{ professionals.surveyor.name }}</li>
+               <li><strong>Crea:</strong> {{ professionals.surveyor.crea }}</li>
+               <li><strong>RG:</strong> {{ professionals.surveyor.rg }}</li>
+               <li><strong>CPF:</strong> {{ professionals.surveyor.CPF }}</li>
+               <li><strong>CNPJ:</strong> {{ professionals.surveyor.CNPJ }}</li>
+            </ul>
+            <h3>Civil Engineer</h3>
+            <ul>
+               <li><strong>Name:</strong> {{ professionals.civil_engineer.name }}</li>
+               <li><strong>Crea:</strong> {{ professionals.civil_engineer.crea }}</li>
+               <li><strong>RG:</strong> {{ professionals.civil_engineer.rg }}</li>
+               <li><strong>CPF:</strong> {{ professionals.civil_engineer.CPF }}</li>
+               <li><strong>CNPJ:</strong> {{ professionals.civil_engineer.CNPJ }}</li>
+            </ul>
+         </section>
+      </article>
+   </body>
+</html>
