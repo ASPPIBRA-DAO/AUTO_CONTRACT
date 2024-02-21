@@ -1,4 +1,4 @@
-# SELF_CONTRACT 📝
+# AUTO_CONTRACT 📝
 
 ## Contract generation automation 🤖
 
