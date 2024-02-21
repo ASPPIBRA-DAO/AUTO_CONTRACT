@@ -1,0 +1,369 @@
+{       
+    "documento": {
+        "titulo": "Registro Imobiliário Digital",
+        "autor": "ASPPIBRA-DAO",
+        "solicitante": "Julio Cesar da Costa Luis",
+        "data_criacao": "2023-10-26",
+        "palavras_chave": ["Exemplar", "Registro", "Documentação", "Metadados"],
+        "idioma": "pt",
+        "formato": [".JSON", "PDF", "NFT"],    
+        "dedicatoria": "Com sincera dedicação, expressamos nossa profunda gratidão à ASPPIBRA por sua contribuição fundamental na busca por soluções inovadoras na Regularização Fundiária Urbana e Rural no Brasil. O comprometimento incansável e a visão estratégica de sua equipe desempenharam um papel essencial na concepção e desenvolvimento deste projeto. Esta dedicação reflete nossa sincera gratidão pelo compromisso em apresentar uma visão abrangente do registro imobiliário no contexto digital. A proposta visa garantir a inclusão digital de todos os proprietários de imóveis, alinhando-se totalmente à legislação atual, em particular, a LEI Nº 13.465, DE 11 DE JULHO DE 2017. Além disso, é digno de nota que o projeto está totalmente alinhado com a Lei nº 10.973 de 2004 (Lei da Inovação), destacando os esforços contínuos da ASPPIBRA para incentivar o desenvolvimento e a adoção de tecnologias inovadoras. A proposta visa não apenas modernizar, mas também aprimorar substancialmente os processos relacionados à regularização fundiária, capitalizando totalmente o potencial proporcionado pela transformação digital e pela legislação de inovação. Ao dedicar este documento à ASPPIBRA, expressamos não apenas nossa gratidão, mas também nosso respeito pela busca constante da organização em promover avanços significativos na gestão e regularização de propriedades no cenário urbano e rural brasileiro. Isso é um testemunho do compromisso exemplar da ASPPIBRA em moldar positivamente o futuro do registro de propriedades no país.",
+        "agradecimento": "Com profunda gratidão, expresso meu reconhecimento a Deus, fonte inesgotável de inspiração e guia em todos os momentos. A Ele, atribuo a sabedoria e a força que tornaram possível a criação deste documento. À ASPPIBRA, minha sincera gratidão por seu valioso apoio e dedicação incansável ao longo de todo o processo. A contribuição da ASPPIBRA foi mais do que essencial; representou um compromisso organizacional robusto e um esforço coletivo para atingir os objetivos propostos. Um reconhecimento especial é direcionado à excepcional equipe de topografia, cujo levantamento foi crucial na obtenção de informações cruciais. Agradeço profundamente à dedicada equipe de engenheiros pela meticulosa preparação do plano da propriedade, evidenciando um profissionalismo exemplar. Cada indivíduo envolvido desempenhou um papel significativo, e este documento não teria sido possível sem a colaboração e comprometimento de todos.",
+        "apresentacao": {
+          "titulo": "ALCANCE SERVIÇOS LTDA & PHDL ENGENHARIA LTDA",
+          "introducao": "As empresas ALCANCE SERVIÇOS LTDA, registrada sob CNPJ: 18.267.079/0001-87, PHDL ENGENHARIA LTDA, registrada sob CNPJ: 40.142.171/0001-70, e Associação dos Proprietários e Possuidores de Imóveis no Brasil (ASPPIBRA), registrada sob CNPJ: 26.325.396/0001-30, em parceria, apresentam os resultados do trabalho realizado para a confecção da documentação do imóvel urbano localizado no município de São Gonçalo, no Estado do Rio de Janeiro – RJ.",
+          "detalhes": "A seguir, apresentamos detalhadamente os principais serviços e documentos fornecidos por cada uma das empresas, enfatizando nosso compromisso com a excelência e os resultados alcançados neste processo de grande relevância para a comunidade local."
+        },
+        "objeto": {
+          "descricao": "O presente contrato tem como objeto a aquisição de serviços técnicos de topografia e engenharia especializados para a realização de um Memorial Descritivo. Este memorial incluirá um Levantamento Topográfico e Cadastral da propriedade, a elaboração de Planta Baixa e a emissão de um laudo pericial. O trabalho será focado na identificação precisa do Lote 2, Quadra 37, localizado na Avenida Almirante Amorim do Vale/Monjolos, São Gonçalo, Rio de Janeiro (RJ)."
+        },
+        "objetivo": {
+          "descricao": "O objetivo fundamental deste contrato é obter informações detalhadas sobre as características físicas e legais da propriedade mencionada, com foco principal na localização precisa do Lote 2, Quadra 37, na Avenida Almirante Amorim do Vale/Monjolos, São Gonçalo, Rio de Janeiro (RJ). O objetivo é estabelecer um banco de dados sólido para apoiar decisões informadas, garantindo eficiência na gestão e uso futuro deste ativo imobiliário."
+        },
+        "finalidade": {
+          "descricao": "As informações meticulosamente adquiridas por meio deste documento desempenharão um papel estratégico na formalização do pedido de atualização do registro da propriedade junto ao Cartório de Registro de Imóveis. Este processo transcende a mera atualização cadastral, transformando-se em um instrumento abrangente destinado a atender a diversas demandas potenciais. Destacam-se, entre os propósitos fundamentais, a facilitação da condução efetiva da Ação de Direito Possessório. O intuito é garantir uma base documental robusta que respalde de forma sólida os processos legais envolvidos. A abrangência deste serviço vai além da conformidade legal; busca-se estabelecer uma base documental que não apenas otimize a regularização legal da propriedade, mas também sirva como modelo e incentivo para sua utilização efetiva em todos os casos de ação de Usucapião."
+        },
+        "periodo_de_execucao": {
+          "descricao": "Os trabalhos de campo foram realizados durante o período de 8 de dezembro de 2017."
+        },
+        "localizacao": {
+          "descricao": "Esta seção destaca de maneira expressiva a localização estratégica de São Gonçalo, situado no estado do Rio de Janeiro. O enfoque é direcionado para suas vias de acesso primárias, evidenciando não apenas a posição geográfica, mas também a acessibilidade da região. O relatório fotográfico não se limita a ilustrar apenas a configuração geográfica de São Gonçalo; vai além ao indicar com precisão o local exato onde o estudo topográfico foi conduzido de maneira meticulosa. Essas imagens não apenas capturam visualmente a geografia da região, mas também proporcionam uma visão panorâmica e detalhada do local em análise. Este relatório não é apenas um registro visual, mas uma ferramenta que aprofunda a compreensão da topografia e do ambiente estudado."
+        },
+        "termos_e_definicoes": {
+          "sistema_utm": "SISTEMA DE PROJEÇÃO UNIVERSAL TRANSVERSA (UTM): SISTEMA DE REPRESENTAÇÃO CARTOGRÁFICA ADOTADO PELO SISTEMA CARTOGRÁFICO BRASILEIRO.",
+          "datum_horizontal": "PLANO DE REFERÊNCIA PRIMÁRIO, AO QUAL A ORIGEM DO SISTEMA DE COORDENADAS SE RELACIONA PARA UMA LOCALIZAÇÃO DADA, EM RELAÇÃO AO GEOIDE.",
+          "datum_vertical": "PLANO DE REFERÊNCIA PARA ALTITUDE, DEFINIDO PELA MÉDIA DAS MARÉS NO BRASIL; O DATUM DO MARCO DE MARES DE IMBITUBA- SC ESTÁ ATUALMENTE EM VIGOR.",
+          "georreferenciamento": "ATRIBUIÇÃO DE COORDENADAS GEODÉSICAS AOS ELEMENTOS DEFINIDORES DO OBJETO DE LEVANTAMENTO.",
+          "gps": "SISTEMA DE POSICIONAMENTO GLOBAL.",
+          "gnss": "SISTEMA GLOBAL DE NAVEGAÇÃO POR SATÉLITE.",
+          "rbmc": "(REDE BRASILEIRA DE MONITORAMENTO CONTÍNUO DO SISTEMA GPS): ESTABELECIDO EM 1996, IMPLEMENTOU O CONCEITO DE REDES ATIVAS ATRAVÉS DO MONITORAMENTO CONTÍNUO (RASTREAMENTO) DOS SATÉLITES DO SISTEMA GPS. DIARIAMENTE, TODOS OS DADOS COLETADOS NAS ESTAÇÕES RBMC SÃO TRANSFERIDOS AUTOMATICAMENTE E COLOCADOS À DISPOSIÇÃO DOS USUÁRIOS NO FORMATO RINEX."
+        },
+        "condicoes_gerais": {
+          "descricao": "O levantamento topográfico, em qualquer uma de suas finalidades, deve compreender as seguintes fases:\n\nA) Planejamento, seleção de métodos, equipes e aparelhagem;\nB) Apoio topográfico;\nC) Levantamento de detalhes;\nD) Cálculos e ajustes;\nE) Desenho topográfico final (mídia papel ou em formato eletrônico);\nF) Relatório técnico (quando aplicável)."
+        }
+    },     
+    "owners": {
+        "husband": {
+            "name": "Julio Cesar da Costa Luis",
+            "rg": "20.160.254-7",
+            "CPF": "095.668.897-71",
+            "birthdate": "28/12/1981",
+            "nationality": "Brazilian",
+            "marital_status": "married"
+        },
+        "wife": {
+            "name": "Daniele de Andrade Lucas Luis",
+            "rg": "20.567.008-6",
+            "CPF": "115.050.077-80",
+            "birthdate": "08/09/1984",
+            "nationality": "Brazilian",
+            "marital_status": "married"
+        },
+        "heir_children": [
+            {
+                "name": "First Child's Full Name",
+                "birthdate": "First Child's Birthdate"
+            },
+            {
+                "name": "Second Child's Full Name",
+                "birthdate": "Second Child's Birthdate"
+            }
+        ]
+    },
+    "professionals": {
+        "surveyor": {
+            "name": "Alexsander da Silva Menezes",
+            "crea": "Surveyor's CREA Number",
+            "rg": "00.000.000-0",
+            "CPF": "000.000.000-00",
+            "CNPJ": "18.267.079/0001-87"
+        },
+        "civil_engineer": {
+            "name": "Daiana da Silva de Lima",
+            "crea": "2021100702 (RJ)",
+            "rg": "00.000.000-0",
+            "CPF": "000.000.000-00",
+            "CNPJ": "40.142.171/0001-70"
+        }
+    },        
+    "localizacao_geografica": {
+        "endereco": {
+            "tipo_propriedade": "Urbana",
+            "rua": "Avenida Almirante Amorim do Vale",
+            "quadra": "37",
+            "lote": "02",
+            "numero": "31",
+            "bairro": "Monjolos",
+            "municipio": "São Gonçalo",
+            "cep": "24724-560",
+            "estado": "Rio de Janeiro (RJ)",
+            "pais": "Brasil (BR)"
+        },
+        "caracteristicas_propriedade": {
+            "tamanho_total": "1.100,00 m²",
+            "confrontacao_lateral_direita": "50,00 m do lado direito, confrontando com o Lote 01",
+            "confrontacao_lateral_esquerda": "50,00 m do lado esquerdo, confrontando com o Lote 03",
+            "confrontacao_frontal": "Avenida Almirante Amorim do Vale, com uma distância de 22,00 m",
+            "confrontacao_traseira": "Em seguida, cobre uma distância de 22,00 m na parte de trás e confronta com o Lote 05",
+            "perimetro": "142,00 m",
+            "detalhes_lote_urbano": "Este é um lote urbano, plano, devidamente registrado no 2º Cartório de Registro de Imóveis do 3º Ofício sob o número de registro 4.807. O lote mede um total de 22 m na frente da Avenida Almirante Amorim do Vale, 22 m no fundo, confrontando com o Lote 5, 50 m no lado direito, confrontando com o Lote 01, e 50 m no lado esquerdo, confrontando com o Lote 03, totalizando 1.100 m², de acordo com o número de registro do IPTU 369835000.",
+            "detalhes_construcao": "No lote de terreno número 02, foi construído um edifício com um pavimento e divisões adequadas para moradia, totalizando 63,82 m², de acordo com visita técnica e medição pelo Engenheiro Civil."
+        },
+        "localizacao_geografica": {
+            "latitude": "-22,810144",
+            "longitude": "-42,943313",
+            "sistema_geodesico": "Sistema Geodésico Brasileiro, Datum – SIRGAS 2000, MC-45º W, Sistema UTM. O poligonal do Lote 2 de propriedade do Sr. Julio Cesar da Costa Luis começa no ponto designado 0=PP, georreferenciado no Sistema Geodésico Brasileiro, Datum – SIRGAS 2000, MC-45º W, coordenadas retangulares relativas, sistema UTM: E=734,657.386M e N=7,459,688,912M."
+        },
+        "identificacao_caracterizacao_regiao": {
+            "localizacao_regiao": "Esta é uma região inserida no tecido urbano do município de São Gonçalo, com infraestrutura completa, ocupação predominantemente residencial unifamiliar, com um padrão normal de ocupação e fácil acesso. A região é composta por edifícios de padrão médio e baixo de construção e tem intensidade média de tráfego de veículos e pedestres. O padrão de comércio observado é regular, com a propriedade localizada próxima ao acesso à Rua João de Abreu, a principal rua do bairro.",
+            "infraestrutura_servicos": "Está equipada com toda a infraestrutura que normalmente atende áreas urbanas, incluindo água, eletricidade, esgoto, pavimentação, transporte público e redes telefônicas."
+        }
+    },  
+    "topography_plans": {
+        "equipamentos_utilizados": [
+          "Receptor GNSS L1/L2X900+ CHC",
+          "Estação Total Precisão de 2TKS 202 Gowin"
+        ],
+        "redes_apoio_basico": {
+          "levantamentos_base": "SGB (Sistema Geodésico Brasileiro)",
+          "datum_horizontal": "SIRGAS 2000",
+          "datum_vertical": "Obtido do Modelo Geoidal Oficial Brasileiro adotado pelo IBGE e calculado com o software MapGeo2010 desenvolvido pelo próprio Instituto"
+        },
+        "caracterizacao_sirgas_2000": {
+          "sistema_geodesico_referencia": "Sistema de Referência Terrestre Internacional – ITRS (International Terrestrial Reference System)",
+          "figura_geometrica_terra": {
+            "elipsoide_grs80": "Elipsóide do Sistema Geodésico de Referência de 1980 (Geodetic Reference System 1980 – GRS80)",
+            "semi_eixo_maior_a": "6.378.137 m",
+            "achatamento_f": "1/298,257222101",
+            "origem": "Centro de massa da Terra"
+          },
+          "orientacao": {
+            "polos_meridiano_referencia": "Consistentes em +0,005 com as direções definidas pelo BIH (Bureau International de l'Heure), em 1984"
+          }
+        },
+        "descricao_servicos": {
+          "normas_tecnicas_referencias_consultadas": [
+            {
+              "organizacao": "IBGE",
+              "titulo": "Especificações e Normas Gerais para Levantamento Geodésico",
+              "resolucao": "Resolução PR Nº 22 (21/07/1983)",
+              "url": "https://bafybeiepnalinpuyqbrirxct5wluvyev6ohauq5dnciu6zi7gnsak2jy7q.ipfs.w3s.link/RESOLU%C3%87%C3%83O%20%E2%88%92%20PR%20no%2022%2C%20de%2021-07-83.pdf"
+            },
+            {
+              "organizacao": "IBGE",
+              "titulo": "Especificações e Normas Gerais para Levantamento GPS: Versão Preliminar",
+              "resolucao": "Resolução PR Nº 05 (31/03/1993)",
+              "url": "https://bafybeiggxoy2tyejt2jyi5il542x4nisj6l6xno7a2yjp3pzaxgrtx4hv4.ipfs.w3s.link/legisla_normagps_d.pdf"
+            },
+            {
+              "organizacao": "IBGE",
+              "titulo": "Resolução do Presidente Nº 22/2005, de 25/02/2005, que altera a caracterização do Sistema Geodésico Brasileiro",
+              "url": "https://bafybeiap42o5iaa5oh6nr6mtzal5zru7dmdffr7lzbekiuctet55g5m6le.ipfs.w3s.link/rpr_01_25fev2005.pdf"
+            },
+            {
+              "organizacao": "ABNT",
+              "titulo": "NBR 13133 - Execução de Levantamento Topográfico",
+              "local": "Rio de Janeiro",
+              "ano": "Maio de 1994",
+              "url": "https://bafybeiekkozoylbowixomuetvzqicoxdszrtz4y4grktxf4agiqlnpogle.ipfs.w3s.link/NBR13133.pdf"
+            },
+            {
+              "organizacao": "ABNT",
+              "titulo": "NBR 14166 - Rede de Referência Cadastral Municipal – Procedimento",
+              "local": "Rio de Janeiro",
+              "ano": "Agosto de 1998",
+              "url": "https://bafybeiatkxghj524xng7yb6mzhyiu7ffj64ufyxzjxfr745md4r4e6zy6a.ipfs.w3s.link/NBR14166.pdf"
+            },
+            {
+              "organizacao": "INCRA",
+              "titulo": "Norma Técnica para Georreferenciamento de Imóveis Rurais – 2ª Edição",
+              "ano": "Fevereiro de 2010",
+              "url": "https://bafybeiarzt5573jsjtlrzapiibqmurutjs3owdrqdgso7ufe65ad2spmsa.ipfs.w3s.link/norma_tecnica_georreferenciamento.pdf"
+            },
+            {
+              "organizacao": "IBGE",
+              "titulo": "Manual do Usuário Posicionamento por Ponto Preciso",
+              "versao": "Versão Março 2009",
+              "url": "https://bafybeihh43vomdllxrd7e2mdnhdjubru5xuwfrslwl6k5xhyxelkrm4htu.ipfs.w3s.link/manual_ppp.pdf"
+            },
+            {
+              "organizacao": "IBGE",
+              "titulo": "Recomendações para Levantamentos Relativos Estáticos – GPS",
+              "mes": "Abril",
+              "ano": "2008",
+              "url": "https://bafybeia36jxjlspkwdhwexg2fhn4y7elqykxzt4ge2752suqjdtcxwiigy.ipfs.w3s.link/recom_gps_internet.pdf"
+            }
+          ]
+        },
+        "transporte_de_coordenadas": {
+          "marco_de_apoio_inicial_P1": {
+            "descricao": "Inicialmente, implantamos na área do levantamento um marco de apoio básico, que denominamos P1, onde foram transferidas as coordenadas e cotas para controle e apoio aos demais trabalhos topográficos.",
+            "equipamento_utilizado": "Receptor GNSS (Global Navigation Satellite System), tipo geodésico de dupla frequência (L1/L2), com tempo de rastreio mínimo de 1 hora. Após descarregarmos os dados obtidos do rastreio do ponto P1, estes foram ajustados através da triangulação clássica com dados obtidos de duas estações da RBMC (Rede Brasileira de Monitoramento Contínuo do Sistema GPS), a saber: CEEU e BRFT, cujos os relatórios encontram-se em anexo. Triangulando os dados de campo com os dados da RBMC, o processamento desses dados para amarração ao Sistema Geodésico Brasileiro (SGB) foi realizado através do software Topcon Tools, com relatório de processamento apresentado em anexo. O transporte de cotas para o marco de apoio básico também foi realizado com GPS geodésico, pelo método estático rápido.",
+            "pos_processamento_e_ajuste": {
+              "software_utilizado": "Topcon Tools para dados GPS e MAPGEO 2010 (IBGE) para ajuste da altura geoidal.",
+              "obtencao_de_qualidade": "As qualidades obtidas para as observações após processamento e ajuste de rede foram para o ponto P1. Na sequência dos trabalhos, implantamos mais 01 (um) marco de apoio imediato (ponto P0), utilizando equipamento receptor GNSS L1/L2, pelo método estático rápido, tendo como ponto de controle o marco de apoio básico P1. Partindo do ponto P1, implantamos mais 02 (duas) estações de referência para os trabalhos com estação total, pelo método RTK (Real Time Kinematic)."
+            }
+          }
+        },
+        "levantamento_topografico_cadastral": {
+          "descricao": "Após a implantação das referências planialtimétricas, realizamos o levantamento em campo utilizando equipamento do tipo estação total, com precisão angular de 2 graus, por meio do método de irradiação de pontos. Durante este processo, coletamos os pontos notáveis do terreno, edificações, calçadas, soleiras, sarjetas, meio-fio, caixas de passagens, elementos de drenagem, esgoto, árvores (incluindo diâmetro) e demais pontos que julgamos necessários para a completa caracterização do imóvel objeto deste levantamento."
+        },
+        "processamento_de_dados": {
+          "processamento_de_dados_em_escritorio": {
+            "comunicacao_de_software": "No escritório, os dados coletados são transferidos para o computador através do software que se comunica com a coletora de dados dos receptores GNSS (Windows Mobile Device Center). Para os arquivos da estação total, utilizamos o software Colet. Os serviços são distribuídos internamente para o processamento (cálculo) e desenho em meio digital, de acordo com a capacidade técnica do profissional necessária para a melhor execução dos trabalhos. Após o término do desenho, é realizada uma plotagem preliminar para a revisão e observações gerais."
+          },
+          "equipamentos_necessarios": [
+            "Software de Pós-Processamento de Dados GNSS: Topcon Tools Versão 7.5.1",
+            "Software de Cálculo Topográfico: Datageosis Office, Versão 7.5.8.3",
+            "Software de Desenho: AutoCAD, Versão 2013",
+            "Plotadora: HP DesignJet 800"
+          ]
+        }
+    },
+    "plans": {
+        "district_plan": "https://bafybeidp6a4u66hs6qu7aiirm4jjdww6y4axsuxaun5ddfdlrqawqfpa6y.ipfs.w3s.link/%40distrito.png",
+        "situation_plan": "https://bafybeidabxrfk52ktaucgiubqdtfmr37glfkgqpqd4r2cjhudf5fvl6zji.ipfs.w3s.link/%40pl_situa%C3%A7%C3%A3o.png",
+        "cadastral_planimetric_plan": "https://bafybeiahak3rmcs4sylyvfdob3vwf27ibxsoe3icjhbd57vyn2bswmxdt4.ipfs.w3s.link/%40cadastral.png",
+        "topographic_plan": "https://",
+        "zoning_plan": "https://"
+    },
+    "house_plans": {
+        "value": "Description",
+        "plans": {
+            "house_plan": "URL to the house plan",
+            "engineering_plan": [
+                "https://bafybeif6auu2jcfxeqfjtqnhjm2uwtnjeuulamf5nshy4z5zaleumhjoma.ipfs.w3s.link/%40pl_baixa_01.png",
+                "https://bafybeiertnlz3obafrprb65qjgsgqqnzvfvodykcia3sqgtznywn4mnbyu.ipfs.w3s.link/%40pl_baixa_02.png"
+
+            ]
+        }
+    },
+    "photo_report": {
+        "description": "A photo report showcasing the different areas of the property",
+        "images": {
+            "Front View": "https://bafybeieier5xq5vj2sxm3467lof7izdzgyb7ts47i4zkzq3dmd5vg5boiy.ipfs.w3s.link/%40casa_01.png",
+            "side view": "https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png",
+            "Backyard": [
+                "https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png",
+                "https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png"
+            ],
+            "aerial_photography": [
+                "https://bafybeidvihybjcvnfwvpqafki36urtqhiwwnkdy5xzy7ls2zcnoqon54ge.ipfs.w3s.link/%40air_01.png",
+                "https://bafybeigzemav2aajzgtzp5e4u6yh2su376u3w56lsdtjtotes6ltncktbi.ipfs.w3s.link/%40air_02.png",
+                "https://bafybeifuy46ujrlvzqzu7ibg2cjmnrkmko4mifisne7aakpafjsqgz4mzi.ipfs.w3s.link/%40air_03.png",
+                "https://bafybeicc76eqbhzsl7h7nonw2pem23abfrnyqrcfg56cjghowb6sead5sm.ipfs.w3s.link/Aerofotografia-04.png",
+                "https://bafybeialgnq5eoqh3kynvg7mi4hxmkzfgygq6ckipc4fndxwunzkt7cyli.ipfs.w3s.link/Aerofotografia-05.png",
+                "https://bafybeie3md33s3gxxxnume4gpehs7mqulez3wxfhwebkpmjf3rnicac374.ipfs.w3s.link/Aerofotografia-06.png",
+                "https://bafybeiby54ssfvruoeye4qdd3h7posmgmpqcirfltykezqijlarbdif3o4.ipfs.w3s.link/Aerofotografia-07.png"
+            ]
+        }
+    },
+    "construction_licensing": {
+        "value": "ART",
+        "electronic_seal": "2020210181537",
+            "link": [
+            "https://bafybeibdq6u4gf26elfx62nntxgrgvidng2vmg5l43j35jgoq6mr67ogy4.ipfs.w3s.link",
+            "https://bafybeigficssrtywgh4mxdyfnxohfaigqzjnrtfdxpmazuas3bhwsszof4.ipfs.w3s.link"
+        ]
+        
+    },    
+    "city_hall": {
+        "address": {
+            "street": "Av. Presidente Kennedy",
+            "number": "00",
+            "block": "00",
+            "lot": "00",
+            "neighborhood": "Estrela do Norte",
+            "municipality": "São Gonçalo",
+            "state": "Rio de Janeiro (RJ)",
+            "zip_code": "00"
+        },
+        "CNPJ": "28.636.579/0001-00"
+    },
+    "iptu": {        
+        "enrollment": "369835000",
+        "exercise:": "2024",        
+        "link": [
+            "https://bafkreifq55wy3n77yn3zahz2i22vjaegdm7tw2zx7sj47vlibvwdfipco4.ipfs.w3s.link",
+            "https://",
+            "https://",
+            "https://"
+        ]        
+    },
+    "registry_office": {
+        "name": "Tabelionato De Notas E 3º Ofício De Registro De Imóveis",
+        "notary_officer": {
+            "name": "José Expedito Moreira da Cunha",
+            "substitute_name": "Cristiane Mendes Cunha Melo"
+        },
+        "address": {
+            "street": "Antônio Alves",
+            "number": "99",
+            "block": "00",
+            "lot": "00",
+            "neighborhood": "Alcântara",
+            "municipality": "São Gonçalo",
+            "state": "Rio de Janeiro (RJ)",
+            "zip_code": "24710-390"
+        },
+        "CNPJ": "30.594.527/0001-52"
+    },
+    "onus_reais": {
+        "book": "02",
+        "Registration": "4.807",
+        "date_of_certificate": "16/07/2021",
+        "electronic_seal": "EDWG85399",
+        "random_code": "AXN",
+        "value": "Description",
+        "link": [
+            "https://bafkreidi2pl6ig63g45ccgtjnoyspxydypdxzjykwlyewe55psvtzx7ywa.ipfs.w3s.link",
+            "https://bafkreibegclqbpwj3lmjg2uyrv5flztyxaj5kdeeuiiywrvlx4cgcn73jq.ipfs.w3s.link",
+            "https://bafkreie5cylp3yxkrm3acqe7vkfxwo3zxdnl2lekfxjy3vb6s4w6yo2qay.ipfs.w3s.link",
+            "https://"
+        ]        
+    },    
+    "Declaration": {
+        "book": "8017",        
+        "sheet": "182/183",
+        "date_of_certificate": "13/11/2017",
+        "electronic_seal": "ECIT57306",
+        "random_code": "LRG",
+        "value": "Description",
+        "link": [
+            "https://",
+            "https://",
+            "https://",
+            "https://bafkreihuzo2uy5cf36s7tk7btxshdykoa5l4pesut7rniosbfhyyguqrr4.ipfs.w3s.link"
+        ]        
+    },
+    "notarial_minutes": {
+        "book": "275",
+        "act": "136",
+        "sheet": "155/156",
+        "date_of_certificate": "15/01/2019",
+        "electronic_seal": "ECVY45835",
+        "random_code": "XYA",
+        "value": "Description",
+        "link": [
+            "https://bafkreiex63y3dncn6tdd5myidx5ui2fc56nr7pr5ximq3aziwapzs3kchu.ipfs.w3s.link",
+            "https://bafkreieabh2qwmnitgvezshasarzfnnodzrvqk3ftf5xxdt5vxcjxxdv3a.ipfs.w3s.link",
+            "https://bafkreiao2tbj5bs7vimievxhos6voytdykxhoa4x5cfzsrzmvhl3p62gd4.ipfs.w3s.link",
+            "https://bafkreibfbzmydlm5b7ttintrn2a2fusnybxq5yaf2m7arnwbvfgrv4ua7a.ipfs.w3s.link"
+        ]        
+    },
+    "judicial_note": {
+        "book": "#",
+        "act": "#",
+        "sheet": "#",
+        "date_of_certificate": "00/00/0000",
+        "electronic_seal": "#",
+        "random_code": "#",
+        "value": "Description",
+        "link": [
+            "https://",
+            "https://",
+            "https://",
+            "https://"
+        ]        
+    }    
+}

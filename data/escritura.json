@@ -1,0 +1,179 @@
+{
+    "document": {
+        "title": "Digital World Real Estate Registration",
+        "author": "ASPPIBRA-DAO",
+        "creation_date": "2023-10-26",
+        "keywords": ["sample", "document", "metadata"],
+        "language": "en",
+        "format": "application/pdf",
+        "description": "This document prepared by the ASPPIBRA-DAO team seeks to bring a solution to cases of Urban and Rural Land Regularization throughout the country, aiming at the digital inclusion of all owners and possessors of properties in Brazil. In compliance with LAW No. 13,465, OF JULY 11, 2017. Which provides for urban and rural land regularization, we apply the use of blockchain technology to scale real estate registration worldwide, solving the problems of informality and transparency in the registration of properties, guaranteeing access to inviolable decentralized information. A unique NFT representing ownership of your house."
+    },
+    "owners": {
+        "husband": {
+            "name": "Julio Cesar da Costa Luis",
+            "rg": "20.160.254-7",
+            "CPF": "095.668.897-71",
+            "birthdate": "28/12/1981",
+            "nationality": "Brazilian",
+            "marital_status": "married"
+        },
+        "wife": {
+            "name": "Daniele de Andrade Lucas Luis",
+            "rg": "20.567.008-6",
+            "CPF": "115.050.077-80",
+            "birthdate": "08/09/1984",
+            "nationality": "Brazilian",
+            "marital_status": "married"
+        },
+        "heir_children": [
+            {
+                "name": "First Child's Full Name",
+                "birthdate": "First Child's Birthdate"
+            },
+            {
+                "name": "Second Child's Full Name",
+                "birthdate": "Second Child's Birthdate"
+            }
+        ]
+    },
+    "area_description": {
+        "address": {
+            "property_type": "Urban",
+            "street": "Avenida Almirante Amorim do Vale",
+            "block": "37",
+            "lot": "02",
+            "neighborhood": "Monjolos",
+            "municipality": "São Gonçalo",
+            "zip_code": "24724-560",
+            "state": "Rio de Janeiro (RJ)",
+            "country": "Brazil (BR)"
+        },
+        "registration_number": {
+            "city ​_hall": "000000000000000000",
+            "Notary_office": "00000000000000"
+        },
+        "area": {
+            "total_size": "1,100.00 M²",
+            "right_side_confrontation": "50.00 M on the right side, confronting with Lot 01",
+            "left_side_confrontation": "50.00 M on the right side, confronting with Lot 03",
+            "front_confrontation": "Avenida Almirante Amorim do Vale, with a distance of 22.00 M",
+            "back_confrontation": "Then it covers a distance of 22.00 M at the back and confronts with Lot 05",
+            "perimeter": "142.00 M"
+        },
+        "geographic_location": {
+            "latitude": "Your Latitude Value",
+            "longitude": "Your Longitude Value",
+            "geodetic_system": "Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, UTM System The polygonal of Lot 2 owned by Mr. Julio Cesar da Costa Luis begins at the mark designated 0=PP, georeferenced in the Brazilian Geodesic System, Datum – SIRGAS 2000, MC-45º W, relative rectangular plane coordinates, UTM system: E=734,657.386M and N=7,459,688,912M."
+        },
+        "sales_value": {
+            "list_price": "Specify the list price of the property",
+            "appraised_value": "Specify the appraised value of the property",
+            "negotiated_sales_price": "Specify the negotiated sales price, if different from the list price",
+            "date_of_sale": "Specify the date when the property was sold",
+            "buyer_information": "Include the name and contact details of the buyer, if available",
+            "payment_method": "Specify the method of payment used for the sale, e.g., cash, mortgage, etc.",
+            "terms_of_sale": "Specify any special terms or conditions of the sale, if applicable"
+        }
+    },
+    "professionals": {
+        "surveyor": {
+            "name": "Alexsander da Silva Menezes",
+            "crea": "Surveyor's CREA Number",
+            "rg": "Surveyor's RG Number",
+            "CPF": "Surveyor's CPF Number",
+            "CNPJ": "18.267.079/0001-87"
+        },
+        "civil_engineer": {
+            "name": "Daiana da Silva de Lima",
+            "crea": "2021100702 (RJ)",
+            "rg": "Engineer's RG Number",
+            "CPF": "Engineer's CPF Number",
+            "CNPJ": "40.142.171/0001-70"
+        }
+    },
+    "topography_plans": {
+        "value": "Your Unique Area Description with Topography Plans",
+        "plans": {
+            "district plan": "https://bafybeidp6a4u66hs6qu7aiirm4jjdww6y4axsuxaun5ddfdlrqawqfpa6y.ipfs.w3s.link/%40distrito.png",
+            "Situation Plan": "https://bafybeidabxrfk52ktaucgiubqdtfmr37glfkgqpqd4r2cjhudf5fvl6zji.ipfs.w3s.link/%40pl_situa%C3%A7%C3%A3o.png",
+            "Cadastral planimetric plan": "https://bafybeiahak3rmcs4sylyvfdob3vwf27ibxsoe3icjhbd57vyn2bswmxdt4.ipfs.w3s.link/%40cadastral.png",
+            "topographic plan": "URL",
+            "Zoning plan": "URL"
+        }
+    },
+    "house_plans": {
+        "value": "Your Unique Area Description with House Plans",
+        "plans": {
+            "house_plan": "URL to the house plan",
+            "engineering_plan": [
+                "https://bafybeif6auu2jcfxeqfjtqnhjm2uwtnjeuulamf5nshy4z5zaleumhjoma.ipfs.w3s.link/%40pl_baixa_01.png",
+                "https://bafybeiertnlz3obafrprb65qjgsgqqnzvfvodykcia3sqgtznywn4mnbyu.ipfs.w3s.link/%40pl_baixa_02.png"
+
+            ]
+        }
+    },
+    "photo_report": {
+        "description": "A photo report showcasing the different areas of the property",
+        "images": {
+            "Front View": "https://bafybeieier5xq5vj2sxm3467lof7izdzgyb7ts47i4zkzq3dmd5vg5boiy.ipfs.w3s.link/%40casa_01.png",
+            "side view": "https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png",
+            "Backyard": ["https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png",
+                         "https://bafybeihjdmtubrpyxds7muf4f2vlvkji6bdl76s3jowqzzp4civj7zy6by.ipfs.w3s.link/%40casa_02.png"],
+            "aerial_photography": [
+                "https://bafybeidvihybjcvnfwvpqafki36urtqhiwwnkdy5xzy7ls2zcnoqon54ge.ipfs.w3s.link/%40air_01.png",
+                "https://bafybeigzemav2aajzgtzp5e4u6yh2su376u3w56lsdtjtotes6ltncktbi.ipfs.w3s.link/%40air_02.png",
+                "https://bafybeifuy46ujrlvzqzu7ibg2cjmnrkmko4mifisne7aakpafjsqgz4mzi.ipfs.w3s.link/%40air_03.png"
+            ]
+        }
+    },
+    "construction_licensing": {
+        "value": "ART",
+        "link": "https://bafybeigjkvr54ue2rgewwksb7prcpuxly6aklpk7wb35x3wfxfyazrlate.ipfs.w3s.link/%40art.png",
+        "electronic_seal": "00000000000000hats"
+    },    
+    "city_hall": {
+        "address": {
+            "street": "Av. Presidente Kennedy",
+            "block": "00",
+            "lot": "00",
+            "neighborhood": "Estrela do Norte",
+            "municipality": "São Gonçalo",
+            "state": "Rio de Janeiro (RJ)",
+            "zip_code": "00"
+        },
+        "CNPJ": "28.636.579/0001-00"
+    },
+    "registry_office": {
+        "name": "Tabelionato De Notas E 3º Ofício De Registro De Imóveis",
+        "notary_officer": {
+            "name": "José Expedito Moreira da Cunha",
+            "substitute_name": "Cristiane Mendes Cunha Melo"
+        },
+        "address": {
+            "street": "Antônio Alves",
+            "block": "00",
+            "lot": "00",
+            "neighborhood": "Alcântara",
+            "municipality": "São Gonçalo",
+            "state": "Rio de Janeiro (RJ)",
+            "zip_code": "24710-390"
+        },
+        "CNPJ": "30.594.527/0001-52"
+    },
+    "onus_reais": {
+        "value": "Description of the Onus Reais exclusive area",
+        "link": "URL",
+        "electronic_seal": "00000000000000hats"
+    },
+    "notarial_minutes": {
+        "value": "Description of the Onus Reais exclusive area",
+        "link": "URL",
+        "electronic_seal": "00000000000000hats"
+    },
+    "judicial_note": {
+        "value": "Description of the Onus Reais exclusive area",
+        "link": "URL",
+        "electronic_seal": "00000000000000hats"
+    }
+    
+}
