@@ -1,5 +1,7 @@
+
+
 def fill_contract_template_with_json(
-    template_path: str, json_data: Dict
+    template_path: str, json_data: dict
 ) -> str:
     """Preenche o modelo de contrato HTML e CSS usando os dados JSON.
 
